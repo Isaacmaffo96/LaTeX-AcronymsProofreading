@@ -1,5 +1,3 @@
-![Facciata](https://user-images.githubusercontent.com/28917454/153767028-6b219f9d-dffd-4a8c-bc6b-8329e8ae4f73.jpg)
-
 funzionamento corretto dell'interfaccia grafica:
  una volta avviata l'applicazione sulla sinistra mostra la lista degli acronimi errati, catalogati per il nome
  dell'acronimo e del nome breve quando disponibile, ad esempio CAP (senza nome breve) oppure GUIT - [\GuIT] (con nome breve)
@@ -30,4 +28,4 @@ funzionamento corretto dell'interfaccia grafica:
  Una volta aggiunto un acronimo manualmente nel dizionario il tool ci da la possibilità di ripensarci e di andare a
  rimuoverlo dal file dizionario, infatti basta visualizzare la lista completa degli acronimi, selezionare l'acronimo
  appena inserito nel dizionario e cliccare sul pulsante "Rimuovi dal dizionario" (Lo stesso pulsante che precedentemente
- ci ha permesso di inserlo nel dizionario, ma con un nome diverso)
+ ci ha permesso di inserlo nel dizionario, ma con un nome diverso).
