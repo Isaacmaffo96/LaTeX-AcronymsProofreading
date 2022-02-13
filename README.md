@@ -1,8 +1,9 @@
 # **Progetto di Tesi 2019/20**
+## Rapida visione della relazione di progetto
 
 ![Facciata](https://user-images.githubusercontent.com/28917454/153767078-dfab790c-9d9a-410b-b426-4a5aeb2480d4.jpg)
 
-## ***Sommario***
+## **Sommario**
 
 Nella frenesia della vita quotidiana abbiamo contratto la cattiva abitudine di scrivere nella
 maniera più veloce possibile, questo vizio è stato accentuato dagli smartphone, per mezzo
@@ -30,3 +31,14 @@ a queste funzioni è presente l’operazione di correzione automatica, che si in
 correggere automaticamente il testo con le correzioni ritenute più opportune.
 LATEX Acronyms Proofreading mira a ridurre le lacune degli editor WYSIWYM,
 offrendo funzionalità comuni a molti editor WYSIWYG.
+
+## **Funzionamento**
+Il funzionamento è descritto dalla seguente rete di petri:
+
+![Funzionamento](https://user-images.githubusercontent.com/28917454/153767676-82f1c704-f445-43cd-b61a-d02569f90087.jpg)
+
+## **Esempio funzionale**
+
+Prendiamo il caso dell’acronimo Particulate Matter (PM), nella versione italiana Particolato. Nel documento è stato definito erroneamente come Particolare, per questo è finito  nella lista degli errori
+possiamo vedere nel campo Acronimo il nome esteso errato dell’acronimo (Particolare) e nel campo Problema Riscontrato appunto la conferma che è stato inserito un nome esteso
+non corretto. Nel campo Correzioni proposte ci è suggerita la correzione Particolato, aprendo la lista drop-down possiamo vedere tutte le correzioni disponibili per questo acronimo
