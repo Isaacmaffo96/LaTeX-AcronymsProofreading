@@ -1,3 +1,5 @@
+![Facciata](https://user-images.githubusercontent.com/28917454/153767028-6b219f9d-dffd-4a8c-bc6b-8329e8ae4f73.jpg)
+
 funzionamento corretto dell'interfaccia grafica:
  una volta avviata l'applicazione sulla sinistra mostra la lista degli acronimi errati, catalogati per il nome
  dell'acronimo e del nome breve quando disponibile, ad esempio CAP (senza nome breve) oppure GUIT - [\GuIT] (con nome breve)
