@@ -40,5 +40,9 @@ Il funzionamento è descritto dalla seguente rete di petri:
 ## **Esempio funzionale**
 
 Prendiamo il caso dell’acronimo Particulate Matter (PM), nella versione italiana Particolato. Nel documento è stato definito erroneamente come Particolare, per questo è finito  nella lista degli errori
+
+![esempio1](https://user-images.githubusercontent.com/28917454/153767954-8a490fad-8099-46fb-a9a3-4a8d824fbf7e.jpg)
+
 possiamo vedere nel campo Acronimo il nome esteso errato dell’acronimo (Particolare) e nel campo Problema Riscontrato appunto la conferma che è stato inserito un nome esteso
 non corretto. Nel campo Correzioni proposte ci è suggerita la correzione Particolato, aprendo la lista drop-down possiamo vedere tutte le correzioni disponibili per questo acronimo
+
