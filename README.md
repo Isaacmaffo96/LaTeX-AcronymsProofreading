@@ -46,3 +46,11 @@ Prendiamo il caso dell’acronimo Particulate Matter (PM), nella versione italia
 possiamo vedere nel campo Acronimo il nome esteso errato dell’acronimo (Particolare) e nel campo Problema Riscontrato appunto la conferma che è stato inserito un nome esteso
 non corretto. Nel campo Correzioni proposte ci è suggerita la correzione Particolato, aprendo la lista drop-down possiamo vedere tutte le correzioni disponibili per questo acronimo
 
+![esempio2](https://user-images.githubusercontent.com/28917454/153768017-fb150db7-571a-47c0-a5c0-edac83772dba.jpg)
+
+Infatti il plugin ci propone come correzione i nomi estesi di Pubblico Ministero, Particulate Matter, Particolato (selezionato di default), Post Meridiem e Dopo Mezzogiorno. Lasciamo selezionato Particolato, il programma ci offre le funzionalità di correggere, ignorare o aggiungere nel dizionario l’acronimo, premiamo sul pulsante Correggi:
+
+
+
+Il messaggio pop-up in figura 5.3 ci comunica che l’operazione di
+correzione è andata a buon fine.
