@@ -1,5 +1,6 @@
-funzionamento corretto dell'interfaccia grafica:
- una volta avviata l'applicazione sulla sinistra mostra la lista degli acronimi errati, catalogati per il nome
+# **funzionamento corretto dell'interfaccia grafica:**
+
+ Una volta avviata l'applicazione sulla sinistra mostra la lista degli acronimi errati, catalogati per il nome
  dell'acronimo e del nome breve quando disponibile, ad esempio CAP (senza nome breve) oppure GUIT - [\GuIT] (con nome breve)
  selezionando un acronimo nella lista, nella parte a destra ne vedremo le caratteristiche e le operazioni disponibili,
  in particolare per ogni acronimo selezionato verrà mostrato il nome esteso, sotto all'etichetta "Acronimo" e il motivo
