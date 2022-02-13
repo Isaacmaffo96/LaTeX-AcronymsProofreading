@@ -15,8 +15,8 @@ import java.io.IOException;
 
 public class MainPlugIn extends JFrame {
 
-    private static final String file = "document.tex";
-    private static final String fileDizionario = "DizionarioAcronimi.txt";
+    private static final String file = "LaTeX-AcronymsProofreading/dispensa/document.tex";
+    private static final String fileDizionario = "LaTeX-AcronymsProofreading/dispensa/DizionarioAcronimi.txt";
 
     public static void main(String[] args) throws IOException {
 

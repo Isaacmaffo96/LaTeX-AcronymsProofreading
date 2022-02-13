@@ -1,0 +1,102 @@
+\documentclass[a4paper,12pt]{article} % Prepara un documento per carta A4, con un font di dimensione 12pt
+
+\usepackage[french,italian]{babel} % Adatta LaTeX alle convenzioni tipografiche italiane,
+% e ridefinisce alcuni titoli in italiano, come "Capitolo" al posto di "Chapter",
+% se il vostro documento è in italiano
+% l'opzione  linguistica 'french' è necessaria per l'abilitazione della
+% successiva istruzione <<\frenchspacing>> 
+\usepackage[T1]{fontenc} % Riga da togliere se si compila con PDFLaTeX
+\usepackage[utf8]{inputenc} % Consente l'uso caratteri accentati italiani
+\usepackage{verbatim}
+\usepackage{guit}
+\usepackage[footnote]{acronym}
+\frenchspacing % forza LaTeX ad una spaziatura uniforme, invece di lasciare più spazio
+% alla fine dei punti fermi come da convenzione inglese: richiede opzione linguistica 'french'
+
+\title {Esempio di documento in \LaTeX} % \LaTeX è una macro che compone il logo "LaTeX"
+% I commenti (introdotti da %) vengono ignorati
+
+\author{Mario Rossi}
+\date {8 aprile 2002}
+% in alternativa a \date il comando \today introduce la data di sistema.
+
+
+
+\begin {document}
+\maketitle % Genera il titolo sulle istruzioni  \title, \author e \date
+
+\begin{abstract} % Questo è l'inizio dell'ambiente "abstract".
+	% L'ambiente abstract è fatto per contenere un riassunto del contenuto.
+	Breve dimostrazione dell'uso di \LaTeX.
+\end{abstract} % Qui termina l'ambiente ''abstract''
+
+\tableofcontents % Prepara l'indice generale
+
+\section{Testo normale} %
+è possibile scrivere il testo dell'articolo normalmente, ed \emph{enfatizzare} alcune parti del discorso. %
+Una riga vuota nel testo indica la fine di un paragrafo.
+
+
+Il simbolo percentuale "\%" permette di aggiungere commenti al codice senza che siano visibili nel documento, per invece renderlo visibile nel documento basta farlo precedere dal carattere backslash.
+\\ \LaTeX considera commento tutto ciò che segue il simbolo \% sulla medesima riga
+\\ esempio. il 22\% di 100 è 22, mentre il 50\% è 50. % commento il 70% è 70
+% esempio 
+%
+
+Il simbolo percentuale (\%) non è l'unico modo per fare commenti in \LaTeX, infatti è possibile generare blocchi di commenti su più righe usando l'istruzione begin seguita da {comment} e terminarla con l'istruzione end seguita da {comment}.
+\\ esempio. il commento tra questi blocchi non viene poi mostrato nel documento. \begin{comment} codice all'interno dell'ambiente commento
+riga commento 1
+riga commento 2
+riga commento 3
+\end{comment} Il codice dopo questa istruzione viene comunque ignorato
+
+\section{Formule} %
+La forza di \LaTeX\ sono per le formule, sia in linea (ad esempio \(y=x^2\)) che messe in bella mostra in un'area propria: \[y=\sqrt{x+y}\]
+
+\section{Poesia} %
+L'ambiente ``verse'' è usato per comporre tipograficamente le poesie:
+\begin{verse}
+	La vispa Teresa avea tra l'erbetta\\ % la doppia barra inversa forza a capo
+	al volo sorpresa gentil farfalletta.
+\end{verse}
+
+\section{Acronimi}
+\begin{acronym}   
+	\acro{GUIT} [\GuIT] {Gruppo Utilizzatori Italiani di TeX e LaTeX}
+	
+	{\small È un’associazione che si prefigge di aumentare la diffusione di
+		\TeX{} e \LaTeX{} in Italia.\par}
+	\acro{WYSIWYM}{What You See Is What You Mean}
+	{\small L’acronimo (“ciò che vedi è ciò che intendi”) indica un
+		programma di scrittura dotato di una composizione asincrona.\par}
+\end{acronym}
+Altri Acronimi:
+\begin{acronym}  
+	\acro{GUIT} [\GuIT] {Gruppo Utilizzatori Italiani di TeX e LaTeX} (ripetizione)	
+	\acro{CAP} [CAP] {Codice Avviamento Postale}
+	\acro{CAP} {Codice di Sviamento Postale}
+	\acro{4WD} {Four-Wheel Drive} 
+	\acro{4WD} {Quattro ruote motrici} 
+	\acro{ABI} {Associazione Bancaria Italiana} 
+	\acro{ABS} {Antilock Braking System} 
+	\acro{ABS} {Sistema anti bloccaggio} 
+	\acro{ACI} {Automobile Club Italia} 
+	\acro{4WD} {Quattro gomme motrici} 
+	\acro{4WD} {Quattro gomme motrici} 
+	\acro{ETA} {Tempo stimato d'arrivo}
+	\acro{MVP} {Most Valuable Player}
+	\acro{MVP} {more valuable player}
+	\acro{MSC} {Michael Schumacher} %Michael Schumacher
+	\acro{PET} {Posta Elettronica Certificata}
+	\acro{AMOLED} {Active Matrix Organic Light Emitting Diode}
+	\acro{ABS} {Auto Braking System}
+	\acro{PM} {Particolare}
+	\acro{UNI} {università}
+	\acro{DRAM} {Dynamic Random Access Memory}
+\end{acronym}
+
+La prima volta che si scrive un acronimo viene stampato il suo nome per esteso, seguito dall’acronimo fra parentesi: \ac{GUIT}, per esempio.
+Le volte successive viene stampato solo l’acronimo: \ac{GUIT}.
+\begin{acronym}  
+	\acro{GUIT} [\GuIT] {Gruppo Utilizzatori di TeX e LaTeX} 	 
+\end{acronym} \end{document}
