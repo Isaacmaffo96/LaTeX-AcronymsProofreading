@@ -50,7 +50,10 @@ non corretto. Nel campo Correzioni proposte ci è suggerita la correzione Partic
 
 Infatti il plugin ci propone come correzione i nomi estesi di Pubblico Ministero, Particulate Matter, Particolato (selezionato di default), Post Meridiem e Dopo Mezzogiorno. Lasciamo selezionato Particolato, il programma ci offre le funzionalità di correggere, ignorare o aggiungere nel dizionario l’acronimo, premiamo sul pulsante Correggi:
 
+![esempio3](https://user-images.githubusercontent.com/28917454/153768079-583382af-3db6-48d7-af98-49a5f4397570.jpg)
 
+Il messaggio pop-up in figura ci comunica che l’operazione di correzione è andata a buon fine.
 
-Il messaggio pop-up in figura 5.3 ci comunica che l’operazione di
-correzione è andata a buon fine.
+## **Limiti e possibili sviluppi**
+
+Lo scopo del proofreading è verificare la totale assenza di errori grammaticali, sintattici, ortografici e, in caso contrario, correggerli. Solitamente il proofreading di un documento si svolge in modo manuale, infatti è consigliato stampare il testo e leggerlo totalmente per scovare errori. Come si può facilmente intuire questa procedura può essere molto lunga ed è possibile comunque non accorgersi di alcune scorrettezze. Questo programma costituisce un potente strumento a supporto di questa funzionalità, ma si limita a considerare solamente gli acronimi. Fare il proofreading è diverso da eseguire un semplice controllo grammaticale, poiché una frase può essere costituita da parole grammaticalmente corrette, ma essere sintatticamente scorretta. Un possibile sviluppo di questo tool può essere quello di aggiungere altre funzionalità oltre al proofreading degli acronimi. Ad esempio una direzione di espansione è costituita dall’aggiungere in primo luogo il controllo di simboli, spazi e apostrofi, per poi passare in secondo luogo alla capitalizzazione delle parole, aggiungere progressivamente un controllo di tutti gli elementi che possono costituire una frase, per poi in ultimo luogo controllare tutte le parole e il loro senso sintattico in base alle altre.
